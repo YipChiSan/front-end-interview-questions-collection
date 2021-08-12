@@ -28,3 +28,8 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
   Examples: `br`, `img`
 
 > Explain the differences between `src` and `href`. (简述src和href的区别)
+
+* `src` :  attribute just embeds the resource in the current document at the location of the element's definition such as for `srcipt` tag.
+* `href` : attribute specifies the location of a Web resource thus defining a link or relationship between the current element (in case of anchor `a`) or current document (in case of link) and the destination anchor or resource defined by this attribute.
+
+For more information, check out [this page](https://stackoverflow.com/questions/3395359/difference-between-src-and-href/21549827).  
