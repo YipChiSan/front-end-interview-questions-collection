@@ -33,3 +33,13 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
 * `href` : attribute specifies the location of a Web resource thus defining a link or relationship between the current element (in case of anchor `a`) or current document (in case of link) and the destination anchor or resource defined by this attribute.
 
 For more information, check out [this page](https://stackoverflow.com/questions/3395359/difference-between-src-and-href/21549827).  
+
+> What is CSS Hack? (什么是css Hack)
+
+For something in your CSS file to be considered a “hack” it must apply its styles only to the browser(s) being targeted while all other browsers ignore it.
+
+However, there is something to notice:
+  1. `!important` declarations are not hacks.
+  2. Vendor prefixes are not necessarily hacks. If you’re using vendor prefixes, then you’re also supplying valid accompanying standard code. That’s not a hack.
+
+For more detailed information, please click [here](https://www.sitepoint.com/what-is-the-definition-of-a-css-hack/)
