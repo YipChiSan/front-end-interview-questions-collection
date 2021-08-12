@@ -26,3 +26,5 @@ The CSS box model is essentially a box that wraps around every HTML element. It 
   A void element is an element whose content model never allows it to have contents under any circumstances. 
   
   Examples: `br`, `img`
+
+> Explain the differences between `src` and `href`. (简述src和href的区别)
