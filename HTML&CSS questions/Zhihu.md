@@ -43,3 +43,31 @@ However, there is something to notice:
   2. Vendor prefixes are not necessarily hacks. If you’re using vendor prefixes, then you’re also supplying valid accompanying standard code. That’s not a hack.
 
 For more detailed information, please click [here](https://www.sitepoint.com/what-is-the-definition-of-a-css-hack/)
+
+> Differences between px and em (px和em的区别)
+
+* `px` means pixel.
+* `em` means Relative to the font-size of the element (2em means 2 times the size of the current font).
+* `rem` means Relative to font-size of the root element.
+
+> HTML <!DOCTYPE> Declaration (HTML5 为什么只写<!DOCTYPE html>)
+
+ It is an "information" to the browser about what document type to expect. In older documents (HTML 4 or XHTML), the declaration is more complicated because the declaration must refer to a DTD (Document Type Definition).
+ 
+ > HTTP response status codes (Http的状态码有哪些)
+ 
+There are too many codes to memorise so we can check out this [website](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) frequently.
+
+> What happens when you type a URL in the browser and press enter? 
+
+1. You type maps.google.com into the address bar of your browser.
+2. The browser checks the cache for a DNS record to find the corresponding IP address of maps.google.com.
+3. If the requested URL is not in the cache, ISP’s DNS server initiates a DNS query to find the IP address of the server that hosts maps.google.com.
+4. The browser initiates a TCP connection with the server.
+5. The browser sends an HTTP request to the webserver.
+6. The server handles the request and sends back a response.
+7. The server sends out an HTTP response.
+8. The browser displays the HTML content (for HTML responses, which is the most common).
+
+For more detailed explanation, please refer to this [website](https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a).
+
